@@ -22,9 +22,7 @@ public class repsitoryimpl implements StudentRepsitory {
 
     @Override
     public Collection<Student> findAll() {
-
-        System.out.println("这是A分支");
-        System.out.println("这是A1"+"2021年3月22日15:57:22");
+        System.out.printf("2021年3月22日16:11:11");
         return studentMap.values();
     }
 }
