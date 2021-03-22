@@ -24,6 +24,7 @@ public class repsitoryimpl implements StudentRepsitory {
     public Collection<Student> findAll() {
 
         System.out.println("这是A分支");
+        System.out.println("这是A1"+"2021年3月22日15:57:22");
         return studentMap.values();
     }
 }
