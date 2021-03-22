@@ -27,7 +27,7 @@ public class StudentHandler {
 
     @GetMapping("/index")
     public String index(){
-        System.out.println("1111111");
+        System.out.println("2222222222");
         return "当前端口"+this.port;
     }
 
