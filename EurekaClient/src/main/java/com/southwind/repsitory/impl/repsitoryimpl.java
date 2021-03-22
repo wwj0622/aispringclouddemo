@@ -23,7 +23,7 @@ public class repsitoryimpl implements StudentRepsitory {
     @Override
     public Collection<Student> findAll() {
 
-        System.out.println("YYY");
+        System.out.println("222");
         return studentMap.values();
     }
 }
